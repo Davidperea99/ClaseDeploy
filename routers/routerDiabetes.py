@@ -1,10 +1,10 @@
 import pickle
 from fastapi import  APIRouter
+from schemas import schemas
 import numpy as np
 
 
 
-from schemas import schemas
 
 router = APIRouter()
 
