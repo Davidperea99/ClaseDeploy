@@ -1,7 +1,9 @@
 import pickle
 from fastapi import  APIRouter
-from Diabetesdata import Diabetesdata
 import numpy as np
+
+
+
 from schemas import schemas
 
 router = APIRouter()
